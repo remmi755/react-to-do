@@ -1,7 +1,7 @@
 .container {
   width: 500px;
   border: 1px solid yellowgreen;
-  margin: 50px auto;
+  margin: 80px auto;
 
   .header {
     padding: 10px;
@@ -12,7 +12,7 @@
   }
 
   .taskInput {
-    padding: 15px 10px;
+    padding: 12px 10px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgrey;
@@ -22,6 +22,7 @@
       width: 90%;
       padding: 5px 0 5px 5px;
       font-size: 18px;
+      outline: none;
       border: none;
       cursor: pointer;
     }
@@ -45,6 +46,7 @@
     justify-content: space-between;
     padding: 10px;
     background-color: white;
+    border-bottom: 1px solid lightgrey;
 
     .checkbox {
       width: 25px;
