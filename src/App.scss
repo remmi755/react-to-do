@@ -1,0 +1,72 @@
+.container {
+  width: 500px;
+  border: 1px solid yellowgreen;
+  margin: 50px auto;
+
+  .header {
+    padding: 10px;
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .taskInput {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+
+    .input {
+      width: 90%;
+      padding: 5px 0 5px 5px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+    }
+    .button {
+      border: none;
+      background-color: white;
+
+      .plus {
+        width: 15px;
+        cursor: pointer;
+
+        .svg {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+
+    .checkbox {
+      width: 25px;
+      height: 25px;
+      border: 2px solid coral;
+      border-radius: 50%;
+      background-color: coral;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .checkboxEmpty {
+      background-color: white;
+    }
+
+    .throughLine {
+      text-decoration-line: line-through;
+    }
+
+    .remove {
+      padding-right: 5px;
+      cursor: pointer;
+    }
+  }
+}
